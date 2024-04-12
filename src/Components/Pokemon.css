@@ -1,0 +1,199 @@
+.collection-container {
+  color: #3d405b;
+  margin-top: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.collection-container-active {
+  color: #3d405b;
+  margin-top: 2rem;
+  font-weight: 600;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+}
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detail-name {
+  font-size: 1.5rem;
+  color: #3d405b;
+  font-weight: 700;
+}
+.detail-info {
+  background-color: #f2cc8f;
+  background-image: linear-gradient(0deg, #f2cc8f 0%, #f8f3d9 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-size {
+  width: 100%;
+  align-self: flex-start;
+  text-align: start;
+  padding: 0.5rem 1rem;
+  border-bottom: #3d405b 1px solid;
+}
+.detail-abitlity {
+  color: #3d405b;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.detail-skill {
+  align-self: flex-start;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem;
+  text-align: start;
+}
+.detail-close {
+  cursor: pointer;
+  margin: 0.2rem 1rem 0 auto;
+  font-size: 1.5rem;
+}
+.detail-types {
+  align-self: flex-start;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem 1rem;
+  text-align: start;
+}
+.label {
+  color: white;
+  padding: 0.3rem;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.label-normal {
+  background-color: #a9f1df;
+}
+.label-fire {
+  background-color: #ff512f;
+}
+.label-water {
+  background-color: #2e3192;
+}
+.label-electric {
+  background-color: #e7da20;
+}
+.label-poison {
+  background-color: #614385;
+}
+.label-flying {
+  background-color: #a1c4fd;
+}
+.label-fairy {
+  background-color: #ff61d2;
+}
+.label-psychic {
+  background-color: #dd2476;
+}
+.label-bug {
+  background-color: rgb(199, 54, 28);
+}
+.label-grass {
+  background-color: #38ef7d;
+}
+.label-rock {
+  background-color: #868f96;
+}
+.label-ground {
+  background-color: #09203f;
+}
+.label-ghost {
+  background-color: #c7c9d5;
+}
+.label-steel {
+  background-color: #757575;
+}
+.label-ice {
+  background-color: #90c0dd;
+}
+.label-dragon {
+  background-color: #802815;
+}
+.label-shadow {
+  background-color: #696969;
+}
+.label-dark {
+  background-color: #18130e;
+}
+.label-fighting {
+  background-color: #a9adb3;
+}
+.pokemon-name {
+  margin-top: 0.5rem;
+}
+.pokemon-name-detail {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.pokemon-img {
+  width: 50%;
+}
+.pokemon-list-container {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  background-color: #f4f1de;
+  margin: 1rem;
+  padding: 0 1rem;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-list-detailed {
+  background-color: #f4f1de;
+  position: absolute;
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+
+.btn {
+  width: 50%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  cursor: pointer;
+  background-color: #81b29a;
+  color: #3d405b;
+  padding: 0.5rem;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  border: none;
+  transition: 200ms ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #61997e;
+  color: #3d405b;
+  padding: 0.5rem;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  border: none;
+}
